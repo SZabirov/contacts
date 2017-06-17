@@ -4,7 +4,7 @@
 
     <groupId>ru.kpfu.itis.javalab.contacts</groupId>
     <artifactId>contacts</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.2-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -26,7 +26,8 @@
 
     <scm>
         <connection>scm:git:https://github.com/SZabirov/contacts_em.git</connection>
-    </scm>
+      <tag>HEAD</tag>
+  </scm>
 
     <dependencyManagement>
         <dependencies>
@@ -34,25 +35,25 @@
             <dependency>
                 <groupId>ru.kpfu.itis.javalab.contacts</groupId>
                 <artifactId>contacts-dao</artifactId>
-                <version>0.1-SNAPSHOT</version>
+                <version>0.2-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>ru.kpfu.itis.javalab.contacts</groupId>
                 <artifactId>contacts-model</artifactId>
-                <version>0.1-SNAPSHOT</version>
+                <version>0.2-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>ru.kpfu.itis.javalab.contacts</groupId>
                 <artifactId>contacts-rest</artifactId>
-                <version>0.1-SNAPSHOT</version>
+                <version>0.2-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>ru.kpfu.itis.javalab.contacts</groupId>
                 <artifactId>contacts-service</artifactId>
-                <version>0.1-SNAPSHOT</version>
+                <version>0.2-SNAPSHOT</version>
             </dependency>
 
         </dependencies>
